@@ -6,7 +6,7 @@ simple commandlet for PowerShell
 - Create sequential folders
 ## Download/Usage
 1. Download [here](https://github.com/rmuraix/seqdir/releases).  
-2. Place the `seqdir` folder at `C:users/<user>/Documents/PowerShell/Modules/`.  
+2. Place it like this: `C:users/<user>/Documents/PowerShell/Modules/seqdir/seqdir.psm1`.  
 3. Execute command.  
 ```powershell
 # format
