@@ -1,6 +1,7 @@
 # seqdir
 ![License:MIT License](https://img.shields.io/github/license/rmuraix/seqdir)
-![issues](https://img.shields.io/github/issues/rmuraix/seqdir)  
+![issues](https://img.shields.io/github/issues/rmuraix/seqdir)
+[![Analysis](https://github.com/rmuraix/seqdir/actions/workflows/analysis.yml/badge.svg)](https://github.com/rmuraix/seqdir/actions/workflows/analysis.yml)  
 simple commandlet for PowerShell
 ## Features
 - Create sequential folders
