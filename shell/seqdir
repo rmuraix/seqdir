@@ -1,0 +1,2 @@
+PADDING_1=$(printf "%0${#1}d" 1)
+for i in {${PADDING_1}..${1}}; do eval mkdir -p $i ; done ;
