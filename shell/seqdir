@@ -1,2 +1,4 @@
+# $1 is Number of folders to create.
+# $2 is folder name.
 PADDING_1=$(printf "%0${#1}d" 1)
-for i in {${PADDING_1}..${1}}; do eval mkdir -p $i ; done ;
+for i in {${PADDING_1}..${1}}; do eval mkdir -p $i${2} ; done ;
