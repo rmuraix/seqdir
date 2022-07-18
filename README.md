@@ -1,29 +1,26 @@
 # seqdir
 ![License:MIT License](https://img.shields.io/github/license/rmuraix/seqdir)
 ![issues](https://img.shields.io/github/issues/rmuraix/seqdir)
-[![Analysis](https://github.com/rmuraix/seqdir/actions/workflows/analysis.yml/badge.svg)](https://github.com/rmuraix/seqdir/actions/workflows/analysis.yml)  
-simple commandlet for PowerShell
+[![DeepSource](https://deepsource.io/gh/rmuraix/seqdir.svg/?label=active+issues&show_trend=true&token=jqTF1fH8YMSsqfc0-yz4B4hG)](https://deepsource.io/gh/rmuraix/seqdir/?ref=repository-badge)
+[![CodeFactor](https://www.codefactor.io/repository/github/rmuraix/seqdir/badge)](https://www.codefactor.io/repository/github/rmuraix/seqdir)   
+simple command for Bash.
 ## Features
 - Create sequential folders
 ## Download/Usage
-1. Download [here](https://github.com/rmuraix/seqdir/releases).  
-2. Place it like this: `C:users/<user>/Documents/PowerShell/Modules/seqdir/seqdir.psm1`.  
-3. Execute command.  
+1. Download [here](https://github.com/rmuraix/seqdir/releases).   
+2. Execute command.  
 ```powershell
 # format
-$ seqdir <number> <text>
+$ seqdir <Number of folders to create(require)> <folder name> <division character>
 # example
-$ seqdir 3 hello # output: 01hello, 02hello, 03hello
+$ seqdir 10 hello _ # output: 01_hello, 02_hello, ... 10_hello
+$ seqdir 2 hello # output: 1hello, 2hello
 ```
-### Supported PowerShell Versions
+### Supported Bash Versions
 | Version   | Supported          |
 | :-------: | :----------------: |
-| 7.x       | :white_check_mark: |
-| 6.x       | :x:                |
-| 5.1.x     | :white_check_mark: |
-| 5.0.x     | :x:                |
-| 4.x       | :x:                |
-| 3.x       | :x:                |  
+| >=4.x     | :white_check_mark: |
+| <=3.x     | :x:                |  
 
 ## Contributing  
 Issues and PR are welcome. Please read [CONTRIBUTING.md](/CONTRIBUTING.md) and [CODE_OF_CONDUCT.md](/CODE_OF_CONDUCT.md).    
